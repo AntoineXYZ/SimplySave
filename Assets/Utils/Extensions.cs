@@ -4,8 +4,8 @@ using System.Runtime.Serialization;
 using UnityEngine;
 
 namespace SimplySave {
-	static class Surrogates {
-		class Vector3Surrogate : Surrogate {
+	static class Extensions {
+		class Vector3Surrogate : ISurrogate {
 
 			public override Type type { get; protected set; } = typeof(Vector3);
 
@@ -30,7 +30,7 @@ namespace SimplySave {
 			}
 		}
 
-		class Vector4Surrogate : Surrogate {
+		class Vector4Surrogate : ISurrogate {
 
 			public override Type type { get; protected set; } = typeof(Vector4);
 
