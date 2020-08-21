@@ -8,9 +8,9 @@
 
 ## Overview
 
-SimpleSave is a save & load system for Unity
-The goal is to make a very simple static system usable everywhere in your code with custom classes and more!
-The design philosophy of this system is to be as simple as possible but allow great customization.
+SimpleSave is a save & load system for Unity <br />
+The goal is to make a very simple static system usable everywhere in your code with custom classes and more! <br />
+The design philosophy of this system is to be as simple as possible but allow for great customizations.
 
 ## Features
 - Extensions for Binary serializing
@@ -21,3 +21,4 @@ The design philosophy of this system is to be as simple as possible but allow gr
 
 - [ ] Extensions for JSON serializing
 - [ ] Dynamic directory creation
+- [ ] Setup asynchronous loading and saving
